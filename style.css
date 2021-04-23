@@ -25,6 +25,12 @@ body > header > h1 {
     font-size: 60px;
 }
 
+h2, h3 {
+    font-family: "Brush Script MT", "Lucidia Handwriting", cursive;
+    color: #2b2e4a;
+    font-size: 30px;
+}
+
 body > header > nav {
     font-family: "Brush Script MT", "Lucidia Handwriting", cursive;
     font-size: 24px;
