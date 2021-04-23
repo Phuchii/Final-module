@@ -1,12 +1,15 @@
+/* main color */
 main{
     background-color: #e4d3cf;
     height: auto;
 }
 
+/* font family for multiple classes */
 body, nav, h1, p {
     font-family: Arial, sans-serif;
 }
- 
+
+/* all the stuff below applies only to the header in the body container */
 body > header {
     background-color: #c48e7a;
     padding: 1em;
@@ -15,33 +18,43 @@ body > header {
     height: auto;
 }
 
+/* applies to only h1 in body's header */
 body > header > h1 {
     font-family: "Brush Script MT", "Lucidia Handwriting", cursive;
     color: #2b2e4a;
     font-size: 60px;
 }
 
+body > header > nav {
+    font-family: "Brush Script MT", "Lucidia Handwriting", cursive;
+    font-size: 18px;
+} 
+
+/* unordered lists aligned left within a block that is centered */
 ul {
     text-align: left;
     display: inline-block;
 }
 
+/* ordered lists aligned left within a block that is centered */
 ol {
     text-align: left;
     display: inline-block;
 }
 
+/* all paragraphs have padding on right and left*/
 p {
     padding: 0em 20em 0em 20em;
 }
 
-
+/* all sections in main have padding in each direction */
 main section {
     padding: 1em;
     margin: 0em;
     height: auto;
 }
 
+/* footer color and padding in each direction */
 footer {
     background-color: #e2bcb7;
     padding: 1em;
@@ -49,15 +62,18 @@ footer {
     height: auto;
 }
 
+/* .class selector to align text to the center for all tagged containers */
 .text-align {
     text-align: center;
 }
 
+/* links are blue unless hovered */
 a:link {
   color: blue;
   text-decoration: none;
 }
 
+/* if link is hovered the color changes to red and becomes underlined */
 a:hover {
   color: red;
   background-color: transparent;
