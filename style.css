@@ -35,12 +35,8 @@ p {
     padding: 0em 20em 0em 20em;
 }
 
-main article {
-    padding: 1em;
-    height: auto;
-}
 
-main article section {
+main section {
     padding: 1em;
     margin: 1em;
     height: auto;
