@@ -54,12 +54,12 @@ footer {
 }
 
 a:link {
-  color: purple;
+  color: blue;
   text-decoration: none;
 }
 
 a:hover {
-  color: blue;
+  color: red;
   background-color: transparent;
   text-decoration: underline;
 }
