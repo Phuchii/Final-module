@@ -9,8 +9,8 @@ body, nav, h1, p {
  
 body > header {
     background-color: #999b84;
-    margin: 0em;
-    padding: .25em;
+    padding: 1em;
+    margin: 1em;
     border: 0px;
     height: auto;
 }
